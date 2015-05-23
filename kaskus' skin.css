@@ -5,12 +5,12 @@
  * @name        Kaskus' Skin
  * @description Make shitty Kaskus' New UI (2015) more readable, also make it less shit.
  * @author      Volc
- * @version     1.2.3
+ * @version     1.2.3.2
  *
  */
 
   /*Menghapus yang gak berguna*/
-  .bottom-frame, .kasad-h, #c-thread, #sell, .banner-top-ads, .col-sm-3.sidebar, .row.sidebar-wrap, .related-thread.nongol, .popover.fade.bottom.in, .kaskus-ads.postlist, .row.ads-lb-wrap, .col-sm-12.banner-frame, .user-control-stick, #thread_post_list > .row > .col-xs-12 > .text-center, .skin, #feedback, .kaskus-ads .postlist {
+  .bottom-frame, .kasad-h, #c-thread, #sell, .banner-top-ads, .col-sm-3.sidebar, .row.sidebar-wrap, .related-thread.nongol, .popover.fade.bottom.in, .kaskus-ads.postlist, .row.ads-lb-wrap, .col-sm-12.banner-frame, .user-control-stick, #thread_post_list > .row > .col-xs-12 > .text-center, .skin, #feedback {
     display:none;
   }
   
@@ -111,13 +111,11 @@
   /*Font*/
   .postlist .entry, span {
     font-size: 12px;
-    font-family: helvetica;
   }  
   .title, .userid, .user-info > .meta, .postlist, .entry-date, .description, .entry-post > .entry-content, .polling-wrapper, .listing-wrapper-user-content, .group-desc {
     color: #484848;
-    font-family: helvetica;
   }
-  .site-header .dropdown-menu > ul.list-unstyled > li a, #notif, #after-login, #search, .select-category, #kk-forum, #kk-fjb, #kk-playground, .tag-wrap, .user-quickview, #btn-whatsnew, .row {
+  body, span {
     font-family: helvetica;
   }
   
