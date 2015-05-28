@@ -1,11 +1,11 @@
-@-moz-document domain("www.kaskus.co.id") {
+@-moz-document domain('www.kaskus.co.id'), domain('fjb.kaskus.co.id'){
 
 /*
  *
  * @name        Kaskus' Skin
  * @description Make shitty Kaskus' New UI (2015) more readable, also make it less shit.
  * @author      Volc
- * @version     1.2.3.2
+ * @version     1.2.3.3
  *
  */
 
