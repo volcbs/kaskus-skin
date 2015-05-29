@@ -1,11 +1,11 @@
-@-moz-document domain('www.kaskus.co.id'), domain('fjb.kaskus.co.id'){
+@-moz-document domain('www.kaskus.co.id'), domain('fjb.kaskus.co.id') {
 
 /*
  *
  * @name        Kaskus' Skin
  * @description Make shitty Kaskus' New UI (2015) more readable, also make it less shit.
  * @author      Volc
- * @version     1.2.3.3
+ * @version     1.2.4
  *
  */
 
@@ -92,20 +92,13 @@
     border-bottom: none;
   }
   
-  /*background image*/
-  /*body{
-    background: url('http://puu.sh/fqkh9.jpg') no-repeat fixed center;
-    margin:0;
-    overflow-x:hidden;
-  }*/
-  
+  /*background image*/  
   body{
     background-image: url('http://puu.sh/hrlu9.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: right -6.5% bottom 10%;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;    
   }
   
   /*Font*/
@@ -167,5 +160,12 @@
   }
   .thread-head, .thread-head .header-list-cat, #forum-thread-list-top, .post-entry .listing-table table td, .table > tbody > tr > td, .post-entry {
     border: transparent;
+  }
+}
+
+  /*show_post css edit*/
+@-moz-document regexp('http://www\\.kaskus\\.(com|co.id)/show_post/.*'), regexp('https://www\\.kaskus\\.(com|co.id)/show_post/.*') {
+    body.response #thread_post_list .row.nor-post .postlist .entry-body {
+    width: 87.7%;
   }
 }
